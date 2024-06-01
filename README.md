@@ -30,7 +30,7 @@ O endpoint necessário gerado pelo server.go para este desafio será: /cotacao e
 ```bash
 
 # Clonar
-$ git@github.com:flavioamaral-dev/go-experts-desafio-client-server-api.git
+$ git clone https://github.com/flavioamaral-dev/go-experts-desafio-client-server-api.git
 
 
 # Acessar o diretorio server
