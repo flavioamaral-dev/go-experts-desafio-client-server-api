@@ -6,13 +6,6 @@
     Desafio curso FullCycle - Client Server Api em Go lang
 </h3>
 
-
-<p align="center"> 
- <a href="#how-it-works">Funcionamento</a> • 
- <a href="#author">Autor</a> • 
-
-</p>
-
 ## Funcionamento
 
 O client.go deverá realizar uma requisição HTTP no server.go solicitando a cotação do dólar.
@@ -36,42 +29,29 @@ O endpoint necessário gerado pelo server.go para este desafio será: /cotacao e
 
 ```bash
 
-# Clone this repository
-$ git clone https://github.com/renatafborges/Client-Server-API.git
+# Clonar
+$ git@github.com:flavioamaral-dev/go-experts-desafio-client-server-api.git
 
-# Access the project folder cmd/terminal
-$ cd Client-Server-API
 
-# go to the server folder
+# Acessar o diretorio server
 $ cd server
 
-# in server folder run main.go
+# executar run main.go
 $ go run main.go
 
-# The server will start at port: 8080 with the following message
+# Servidor rodando
 Server is running on :8080
 
-# open another terminal tab and access client folder
-(to verify the current folder)
-$ ls
-(to move up a folder level)
-$ cd ..
-(access client folder)
+
+# Acessar o diretório client
 $ cd client 
 
-# in client folder run main.go
+# executar run main.go
 $ go run main.go
 
-# The following message will appear at terminal in case of success
-200
-File created with success!
 
-# in client folder the file will be created
+
+# os dados são gravados em
 cotacao.txt
 
-# you may delete this file in case of another test
-# you can use the extension SQLite Viewer and SQLite to access bid.sqlite database in server/bid.sqlite
-```
-## Author
-Flavio Roberto Amaral
----
+
